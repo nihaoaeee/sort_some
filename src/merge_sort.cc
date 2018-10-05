@@ -5,6 +5,7 @@ void merge(int *arr, int start, int mid, int end, int *result){
     i = start;
     j = mid +1;
     k = 0;
+    
 
     while (i<=mid && j<=end){
         if (arr[i]<=arr[j]){
